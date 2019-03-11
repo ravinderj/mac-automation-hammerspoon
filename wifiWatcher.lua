@@ -1,5 +1,5 @@
 wifiWatcher = nil
-homeSSID = "u39/12 tf"
+homeSSID = "AndroidAP"
 lastSSID = hs.wifi.currentNetwork()
 
 function ssidChangedCallback()

@@ -1,4 +1,4 @@
-hs.alert.show("Config loaded")hs.hotkey.bind({"cmd", "alt", "ctrl"}, "Left", function()
+hs.hotkey.bind({"alt", "ctrl"}, "Left", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -11,7 +11,7 @@ hs.alert.show("Config loaded")hs.hotkey.bind({"cmd", "alt", "ctrl"}, "Left", fun
   win:setFrame(f)
 end)
 
-hs.hotkey.bind({"cmd", "alt", "ctrl"}, "Right", function()
+hs.hotkey.bind({"alt", "ctrl"}, "Right", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
@@ -24,7 +24,7 @@ hs.hotkey.bind({"cmd", "alt", "ctrl"}, "Right", function()
   win:setFrame(f)
 end)
 
-hs.hotkey.bind({"cmd", "alt", "ctrl"}, "Up", function()
+hs.hotkey.bind({"alt", "ctrl"}, "Up", function()
   local win = hs.window.focusedWindow()
   local f = win:frame()
   local screen = win:screen()
